@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hillsong</title>
+    <link rel="stylesheet" type="text/css" href="resources/css/hillsong.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+    <link href="https://unpkg.com/ionicons@4.4.4/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="vendors/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendors/css/animate.css">
+</head>
+
+
+
+
+<body>
+       <!--------------SECTION 1- HEADER------------------------------>
+    <header>
+        <nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+            <div class="container">
+
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Hillsong</a>   <!---Logo/Brand Name-->
+              </div>
+
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#">Home</a></li>         <!-----Navigaiton bar links----->
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Testimonies</a></li>
+                  <li><a href="#">Gallery</a></li>
+                  <li><a href="#">Hillsong United</a></li>   <!-----Navigaiton bar links----->
+                </ul>
+              </div><!-- /.navbar-collapse -->
+
+            </div><!-- /.container-fluid -->
+          </nav>
+
+          <!---Slide Images-->
+          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>  <!---Slide indicators/knobs-->
+              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="2"></li>             <!---Slide indicators/knobs-->
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+               <!---1st Slide Image and caption-->
+              <div class="item active">
+                <div class="banners" style="background-image:url(images/slide2.jpg);"></div>  
+                <div class="carousel-caption">
+                  <h1 class="animated zoomIn" style="animation-delay:1s;">Hillsong <span>United</span></h1>
+                  <p class="animated tada" style="animation-delay:2s;"><a href="#">Get your ticket</a></p>
+                </div>
+              </div>
+
+              <!---2nd Slide Image and caption-->
+              <div class="item">
+               <div class="banners" style="background-image:url(images/slide1.jpg);"></div>
+                <div class="carousel-caption">
+                    <h1 class="animated bounceInLeft" style="animation-delay:1s;">Intense <span>Worship</span></h1>
+                    <h1 class="animated bounceInRight" style="animation-delay:2s;">Spirit <span>outbreak</span></h1>
+                </div>
+              </div>
+            
+              <!---3rd Slide Image and caption-->
+              <div class="item">
+                  <div class="banners" style="background-image:url(images/slide3.jpg);"></div>
+                   <div class="carousel-caption">
+                       <h1 class="animated bounceInRight" style="animation-delay:1s;">Experience <span>Miracles</span></h1>
+                       <h1 class="animated bounceInLeft" style="animation-delay:2s;">Witness <span>Healings</span></h1>
+                   </div>
+                 </div>
+
+            </div>
+           
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div> 
+    </header>
+
+
+
+
+
+
+                <!------------------------------------SECTION 2-EXPERIENCE--------------------------------------->
+    <section class="experience">
+          <div class="row">
+            <p class="introtext">HILLSONG in <span class="animated shake" style="animation-delay:1s;">NIGERIA,</span> 24th June, 2019,  8PM at Maddison Square, Lagos State. Dont miss out, be there</p>
+          </div>
+
+          <div class="row">
+            <div class="clock">
+              <p id ='timer'>
+                  <span id ="days"></span>
+                  <span id="hours"></span>
+                  <span id="minutes"></span>
+                  <span id="seconds"></span>
+                </p>
+            </div>
+            <script src="resources/js/hillsong.js"></script>
+          </div>
+ 
+      
+        <div class="row">
+          <div class="col span-1-of-4 box">
+            <i  class="icon ion-ios-checkmark"></i>
+            <h3>Worship</h3>
+            <p>Never again! We really mean that. Worship is a powerful tool in over- comping the devil, so we say worship with all your heart and say never again to the devil.</p>
+          </div>
+          
+          <div class="col span-1-of-4 box">
+            <i  class="icon ion-ios-checkmark"></i>
+            <h3>spirit outbreak</h3>
+            <p>Your  breakthrough is  only a few hours of intense communication with the spirit. Communication with the Holy Spirit is the closest you'll ever get to to God
+         </p>
+          </div>
+    
+          <div class="col span-1-of-4 box">
+            <i  class="icon ion-ios-checkmark"></i>
+            <h3>healing</h3>
+            <p>Your  breakthrough is  only a few hours of intense communication with the spirit. Communication with the Holy Spirit is the closest you'll ever get to to God!</p>
+          </div>
+    
+          <div class="col span-1-of-4 box">
+            <i class="icon ion-ios-checkmark"></i>
+            <h3>miracles</h3>
+            <p>Your  breakthrough is  only a few hours of intense communication with the spirit. Communication with the Holy Spirit is the closest you'll ever get to to God</p>
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+      <!------------------------------------SECTION 3-MEET US--------------------------------------->
+      <section class="meet-us" style="background-image: linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.699)), url(images/slide2.jpg)";>
+       
+        <div class="row">
+          <div class="col span-1-of-3 box2">
+            <img class="image" src="images/taya smith.jpg">
+           <h3 class="name">Taya Smith</h3>
+           <p>Smith has been at Hillsong since the late 2000s to early 2010s.
+              She started on Hillsong's youth band Hillsong Young & Free then
+             she went on to sing on some Hillsong United albums and some Hillsong Worship albums.</p>
+          </div>
+      
+         <div class="col span-1-of-3 box2">
+            <img class="image" src="images/reubenpg.jpg">
+           <h3 class="name">Reuben Morgan</h3>
+            <p>Morgan serves as Hillsong's worship pastor who started a youth worship band for the church which is now known as Hillsong United.
+               He has written the majority of Hillsong's newer songs and is also the Worship Pastor at Hillsong London.</p>
+          </div>
+
+          <div class="col span-1-of-3 box2">
+              <img class="image" src="images/download.jpg">
+            <h3 class="name">Joel Houston</h3>
+            <p>Houston is one of the worship leaders at Hillsong.
+              Originally he was a guitar player for Hillsong United and soon became United's Worship Leader 
+              Joel currently serves as Hillsong's Creative Director and is currently the Co-Lead Pastor of Hillsong New York City </p>
+          </div>
+        </div>
+
+      <div class="meet-us2">
+        <div class="row">
+          <div class="col span-1-of-3 box2">
+              <img class="image" src="images/brooke.jpg">
+              <h3 class="name">Brooke Fraser</h3>
+              <p>Brooke in recent years has been a part of the Hillsong team after moving to Australia from New Zealand.
+                Performing under her maiden name as Brooke Fraser. 
+                Her song "What A Beautiful Name" won the Grammy award 2018 for "Best Contemporary Christian Music Performance/Song</p>
+          </div>
+
+          <div class="col span-1-of-3 box2">
+              <img class="image" src="images/marty.jpg">
+              <h3 class="name">Marty Sampson</h3>
+              <p>Sampson was one of Hillsong's key musicians and songwriters. He featured in the albums No Other Name and Open Heaven/River Wild. 
+                Recently he has led worship at two of Hillsong New York City's Focus Nights alongside the Hillsong team.</p>
+          </div>
+
+          <div class="col span-1-of-3 box2">
+              <img class="image" src="images/customer-1.jpg">
+              <h3 class="name">Aodhan King</h3>
+              <p>Aodhan King is a key songwriter and worship leader of Hillsong's Y&F. 
+                He has also made numerous contributions to both Hillsong United and Hillsong Worship.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+      <!------------------------------------SECTION 4-TESTIMONIES--------------------------------------->
+    <section class="testimonies">
+      <div class="row">
+        <h2 class="text4">testimonies</h2>
+      </div>
+
+      <div class="row">
+
+        <div class="col span-1-of-3">
+          <blockquote>
+              I almost lost my faith via Hills Christian Center because of the the bullying and Harassment 
+              which my faith was constantly under attack because my husband chose not to hear the word of God 
+              at the time and I would not or could not speak in tongues and I would question the validity of 
+              or are Lacking in Faith”.  
+              <cite><img src="images/customer-2.jpg">Joana Silva</cite>  
+          </blockquote>
+        </div>
+
+        <div class="col span-1-of-3">
+          <blockquote>
+              All thanks, Praise and Glory to our Lord Jesus Christ He Kept me, carried me, Loved me and 
+              showed me many things during this depressive time and still is
+              In regards to my husband I am blessed to say he ask Jesus into his 
+              life this  the Holy Spirit makes it grow! Some come quick to the Lord 
+              others the Lord has to work on First!
+              <cite><img src="images/customer4.jpg">Anna Glen</cite>  
+          </blockquote>
+        </div>
+
+        <div class="col span-1-of-3">
+          <blockquote>
+              I’ve been attending Hillsong London since 2010 and have never experienced any of what
+              I would like to point out that Jesus was often found in the company of ‘sinners’ and much 
+              of what he said was taken to be heretic or blasphemous at the time; 2:9-13?
+              . Faith without works is dead so when you walk out rather 
+              <cite><img src="images/customer-3.jpg">Milton Chapman</cite>  
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+
+
+
+      <!------------------------------------SECTION 5 DROP YOURS--------------------------------------->
+    <section class="testimony-form" style="background-image: linear-gradient(rgba(0, 0, 0, 0.568), rgba(0, 0, 0, 0.651)), url(images/dropyours.jpg)">
+      <div class="formmm">
+
+        <div class="row">
+          <h2 class="text5">drop yours</h2>
+        </div>
+
+        <div class="row">
+          <form method="post" action="#" class="testimonyform">
+
+            <div class="row">
+              <div class="col span-1-of-3">
+                <label for="name">Name</label>
+              </div>
+              <div class="col span-2-of-3">
+                <input type="text" name="name" id="name" placeholder="your name please" required>
+              </div>
+            </div>
+
+
+            <div class="row">
+              <div class="col span-1-of-3">
+                <label for="email">Email Address</label>
+              </div>
+              <div class="col span-2-of-3">
+                <input type="email" name="email" id="email" placeholder="your email address" required>
+              </div>
+            </div>
+
+
+            <div class="row">
+              <div class="col span-1-of-3">
+                <label for="number">Contact Number</label>
+              </div>
+              <div class="col span-2of-3">
+                <input type="text" name="number" id="number" placeholder="your contact number" required>
+              </div>
+            </div>
+
+
+            <div class="row">
+              <div class="col span-1-of-3">
+                <label for="gender">Gender</label>
+              </div>
+              <div class="col span-2-of-3">
+                <select name="gender" id="gender">
+                  <option value="male" selected >Male</option>
+                  <option value="female">Female</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col span-1-of-3">
+                <label>Drop your testimony</label>
+              </div>
+              <div class="col span-2-of-3">
+                <textarea name="message" placeholder="your testimony"></textarea>
+              </div>
+            </div>
+
+            <div class="row">
+                <div class="col span-1-of-3">
+                  <label>&nbsp;</label>
+                </div>
+              <div class="col span-2-of-3">
+                <input class="send" type="submit" value="Send">   
+              </div>
+            </div>
+
+          </form>
+        </div>   
+      </div>
+    </section>
+
+
+
+  <!--------------------------------------SECTION 6 FOOTER------------------>
+  <footer>
+    <div class="foot">
+      <div class="row">
+        <div class="col span-1-of-3 sponsors">
+          <img src="images/cocacolajpg.jpg">
+        </div>
+        <div class="col span-1-of-3">
+          <img src="images/iheartradiopng.png">
+        </div>
+        <div class="col span-1-of-3">
+          <img src="images/unilever.png">
+        </div>
+      </div>
+    
+
+      <nav class="footer">
+        <h2 class="contact">Connect with us on</h2>
+          <ul class="footicon">
+              <li><a href="#"><i class="footticon ion-logo-youtube"></i></a></li>
+              <li><a href="#"><i class="footsicon ion-logo-twitter"></i></a></li>
+              <li><a href="#"><i class="footssicon ion-logo-instagram"></i></a></li>
+              <li><a href="#"><i class="footsssicon ion-logo-facebook"></i></a></li>
+              <li><a href="#"><i class="footssssicon ion-logo-whatsapp"></i></a></li>
+            
+          </ul>
+      </nav>
+
+      <div class="foot-text">
+        <p> 
+          For enquires, you can reach  us on our social media platforms. Copyright &copy; 2019 by Websolutions . All rights reserved</p>
+      </div>
+
+    </div>
+
+    
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src ="vendors/js/bootstrap.min.js"></script>
+
+</body>
+</html>

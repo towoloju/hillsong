@@ -1,0 +1,80 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "lato", sans-serif;
+    font-weight: 300;
+    overflow: hidden;
+}
+
+header{
+    background-color:rgba#fff;
+}
+
+.row{
+    max-width: 1200px;
+    margin: 0 auto 0 auto;
+    height: auto;
+}
+
+@-webkit-keyframes slide_animation{
+    0% {left:0px;}
+    10% {left:0px;}
+    20% {left:1200px;}
+    30% {left:1200px;}
+    40% {left:2400px;}
+    50% {left:2400px;}
+    60% {left:1200px;}
+    70% {left:1200px;}
+    80% {left:0px;}
+    90% {left:0px;}
+    100% {left:0px;}
+}
+
+.slides{
+    width:3600px;
+    height:700px;
+    margin: 0 0 0 -2400px;
+    position: relative;
+    -webkit-animation-name: slide_animation;
+    -webkit-animation-duration: 15s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running
+}
+
+.images1{
+    background-image:url(image/food1.jpeg);
+    background-size: cover;
+  /*  background-position: center;*/
+    width: 1200px;
+    height: 700px;
+    float: left;
+    position: relative;
+}
+
+.images2{
+    background-image:url(image/hillsong1.jpg);
+    background-size:cover;
+    width: 1200px;
+    /*background-position: center;*/
+    height: 700px;
+    float: left;
+    position: relative;
+}
+
+
+.images3{
+    background-image:url(image/hillsong2.jpg);
+  /*  background-position: center;*/
+    background-size: cover;
+    height:700px;
+    width:1200px;
+    float: left;
+    position: relative;
+}
+h1 {
+    color: black
+}
